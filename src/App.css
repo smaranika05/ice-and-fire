@@ -5,7 +5,9 @@
   
 }
 
-
+.APP{
+  background-color: gray;
+}
 
 .ui.cards > .card > .content > .header {
   height: 48px;
@@ -21,19 +23,19 @@
   border: none;
 }
 .ui.cards > .card{
-  background-color: gray;
+  background-color: #fff;
   margin-bottom: 30px;
   
 }
 .ui.cards>.card >.content:hover{
-  background-color: gray;
+  background-color: #fff;
   margin-bottom: 30px;
   
 }
 .ui.cards > .card .meta.name {
   margin-bottom: 5px;
   font-size: 18px;
-  color: #fff;
+  color: #000;
   font-weight: 600;
 }
 
@@ -42,12 +44,12 @@
   color: #222;
 }
 .ui.cards > .card .meta.aliases > p{
-  color: #fff;
+  color: #000;
 }
 .ui.cards > .card .meta.aliases{
   margin-bottom: 5px;
   font-size: 15px;
-  color: #fff;
+  color: #000;
   font-weight: 400;
 
 }
